@@ -1,7 +1,5 @@
-# AITutor-LLM
-AI Tutor for undergraduate EECS class with vector embeddings of course content and answer generation via RAG + semantic search.
-
-Leverage RAG: Retrieval Augmented Generation to locate the nearest embeddings for a given question and load it into the LLM context window for enhanced accuracy on retrieval. 
+# MedExplainer-Langchain-RAG-LLM
+Leverage RAG: Retrieval Augmented Generation to locate the nearest embeddings for a given question and load it into the LLM context window for enhanced accuracy on retrieval. Answer medical questions based on Vector Retrieval.
 
 # Model
 Uses `HuggingFaceH4/zephyr-7b-beta` a finetune on Model: `https://huggingface.co/mistralai/Mistral-7B-v0.1`.
